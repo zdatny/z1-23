@@ -1,0 +1,20 @@
+<html>
+
+<head>
+    <title>styl wewnętrzny</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <!-- wewnetrzny -->
+    <style>
+        p {
+            color: #0000FF;
+            font-size: 56px;
+        }
+    </style>
+</head>
+
+<body bgcolor="silver">
+    <p> Gajewski </p>
+
+</body>
+
+</html>

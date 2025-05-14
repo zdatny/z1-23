@@ -1,0 +1,116 @@
+<html>
+
+<head>
+    <META HTTP-EQUIV="content-type" CONTENT="text/html; charset=utf-8">
+    <style>
+        p,
+        textarea,
+        ul {
+            font-family: Arial;
+        }
+
+        textarea {
+            resize: none;
+            width: 90%;
+            height: 15%;
+        }
+    </style>
+</head>
+
+<body>
+    <ol>
+        <li>
+            <h1>Składnia teoretyczna - otoczona ramką (może być tabela jednokomórkowa,
+                konieczne wcięcia).</h1>
+
+            <textarea readonly disabled>
+    <head>
+         (...)
+         <link rel="stylesheet" type="text/css" href="style.css" />
+         (...)
+    </head></textarea>
+        </li>
+
+        <li>
+            <h1>Gdzie umieszcza się styl zewnętrzny, jaki znacznik jest odpowiedzialny oraz
+                ile razy może on wystąpić w dokumencie jako podłączenie stylu CSS?</h1>
+
+            <p>Styl zewnętrzny jest wstawiany w sekcji
+
+                <head> dokumentu HTML za pomocą znacznika
+                    <link>.
+                    Może występować wielokrotnie w dokumencie, aby podłączyć różne arkusze styli CSS.
+            </p>
+        </li>
+
+        <li>
+            <h1>Najprostsza forma wstawiania stylu zewnętrznego - otoczona ramką (może być
+                tabela jednokomórkowa)?
+            </h1>
+
+            <textarea readonly disabled style="height: 5%;"><link rel="stylesheet" href="styl.css"></textarea>
+        </li>
+
+        <li>
+            <h1>Ile arkuszy styli może być dołączonych do jednego dokumentu HTML oraz jaką zasadę
+                należy zachować przy większej liczbie dołączanych styli?</h1>
+
+            <p>Do jednego dokumentu HTML może być dołączonych wiele arkuszy styli.
+                Nie ma ograniczenia co do ilości arkuszy,
+                jednakże zaleca się zachowanie czytelności kodu i unikanie nadmiernego rozdrobnienia styli. </p>
+        </li>
+
+        <li>
+            <h1>Co się dzieje w przypadku konfliktów? Przez konflikt rozumiemy, gdy te same style
+                są definiowane w różnych arkuszach styli dołączonych do tego samego dokumentu.</h1>
+
+            <p>W przypadku konfliktów, ważniejsze są deklaracje z arkusza dołączonego później.</p>
+        </li>
+
+        <li>
+            <h1>Jak tworzyć i edytować pliki arkuszy za pomocą edytora tekstowego?</h1>
+
+            <p>Pliki arkuszy styli mogą być tworzone i edytowane za pomocą edytora tekstowego,
+                takiego jak Notepad++ czy Sublime Text. Wystarczy utworzyć nowy plik tekstowy,
+                zapisać go z rozszerzeniem .css,
+                a następnie rozpocząć edycję styli w tym pliku. </p>
+        </li>
+
+        <li>
+            <h1>Jak tworzyć i edytować pliki arkuszy za pomocą specjalnego edytora CSS?</h1>
+
+            <p>Można użyć dedykowanego edytora CSS.</p>
+        </li>
+
+        <li>
+            <h1>Jakie rozszerzenie ma plik będący zewnętrznym arkuszem styli?</h1>
+
+            <p>Plik będący zewnętrznym arkuszem styli zazwyczaj posiada rozszerzenie .css, na przykład styl.css.</p>
+        </li>
+
+        <li>
+            <h1>Jakie są zalety zewnętrznego arkusza styli? Podaj dwie, korzystając z wyliczenia.</h1>
+
+            <ol style="font-family: Arial;">
+                <li>Zalety zewnętrznego arkusza styli to:
+                    separacja treści od prezentacji co ułatwia zarządzanie kodem</li>
+                <li>możliwość ponownego wykorzystania tych samych styli w różnych dokumentach HTML.</li>
+            </ol>
+        </li>
+
+        <li>
+            <h1>Uwagi dotyczące pisania w CSS. </h1>
+
+            <ul type="disc">
+                <li>Pisząc w CSS, należy zwracać uwagę na zachowanie czytelności kodu
+                    poprzez stosowanie komentarzy i spójnej konwencji nazewnictwa klas
+                    oraz unikanie nadmiernego zagnieżdżania selektorów dla łatwiejszego utrzymania i skalowalności kodu.
+                </li>
+            </ul>
+        </li>
+
+    </ol>
+
+</body>
+
+</html>

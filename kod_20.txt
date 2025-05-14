@@ -1,0 +1,22 @@
+<head>
+<title>zadanie 20</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body>
+<div style="background-color: #FFFDD0; width: 100%; height:40%;">
+    <p style="color: orange;font-size:20pt;font-family:arial;">Pierwszy komputerowy bug (czyli blad w oprogramowaniu) został nazwany tak dosłownie — przez… cme!</p>
+</div>
+<div style="background-color: magenta;width:80%;height:15%;">
+    <i style="color:green;font-weight: bold;">Pierwszy e-mail w historii zostal </i><strike style="color:red;font-size:20pt;">wysłany w 1971 roku przez </strike><u style="color:purple;font-size:20pt;text-decoration:overline;">Ray’a Tomlinsona, amerykanskiego programistę.</u>
+</div>
+<div style="background-color: #c6d469; width:100%;height:30%;">
+    <h1 style="color: blue; font-size:30pt;text-decoration: underline;">Ciekawostki o :Komputer ENIAC — pierwszy elektroniczny komputer ogólnego przeznaczenia</h1>
+    <ol>
+    <li style="color: blue;font-size:25pt;">ENIAC (Electronic Numerical Integrator and Computer) ważył około 27 ton, zajmował 167 m² i składał się z 18 000 lamp elektronowych.</li>
+    <li style="color: red;font-size:20pt;">Do działania potrzebował około 150 kW energii elektrycznej — tyle, ile dziś zużywa kilkanaście domów jednorodzinnych!</li>
+    <li style="color:gray;font-size:15pt;">ENIAC nie miał klawiatury ani monitora. Aby go "zaprogramować", trzeba było ręcznie przełączać przewody i ustawiać przełączniki, co mogło zająć nawet kilka dni dla jednej operacji.</li>
+    </ol>
+</div>
+ </body>
+</html>
+<!-- Filip Gajewski 2F-->

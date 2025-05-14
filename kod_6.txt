@@ -1,0 +1,30 @@
+kod html
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html ; charset=utf-8">
+
+    <style>
+        @import url("gaje_z6.css")
+    </style>
+</head>
+
+<body bgcolor="silver">
+    <p>:) uśmiechnięta buźka </p> <br>
+    :( smutna buźka <br>
+    <p>:O zaskoczenie </p><br>
+    ; oczko <br>
+    <p>:D szeroki uśmiech </p><br>
+    :/ sceptyczna twarz <br>
+</body>
+
+</html>
+kod css
+p { 
+    color : green;
+    font-size : 20px
+}
+body {
+	color : blue;
+	font-size : 30px
+}
